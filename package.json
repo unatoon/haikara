@@ -17,6 +17,7 @@
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
+    "@lekoarts/gatsby-theme-cara": "^3.0.2",
     "gatsby": "^4.4.0",
     "gatsby-plugin-emotion": "^7.4.0",
     "react": "^17.0.1",
