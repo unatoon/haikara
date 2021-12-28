@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://haikara.unatoon.ink",
-    title: "Snack Haikara",
+    title: "SNACK HAIKARA",
 
     // For cara theme: https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-cara#additional-configuration
-    siteTitle: "スナックハイカラ",
-    siteTitleAlt: "スナックハイカラ",
+    siteTitle: "SNACK HAIKARA",
+    siteTitleAlt: "SNACK HAIKARA",
     siteHeadline: "エンジョイ スプラトゥーン",
     siteDescription: "スナックハイカラのサイトです",
     siteLanguage: "ja",
