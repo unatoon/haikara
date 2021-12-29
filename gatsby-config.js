@@ -9,7 +9,7 @@ module.exports = {
     siteHeadline: "エンジョイ スプラトゥーン",
     siteDescription: "スナックハイカラのサイトです",
     siteLanguage: "ja",
-    siteImage: "/banner-1.png",
+    siteImage: "/images/banner-2.png",
     author: "@unatoon",
   },
   plugins: ["gatsby-plugin-emotion",
