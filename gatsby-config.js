@@ -15,6 +15,12 @@ module.exports = {
     plugins: [
         "gatsby-plugin-emotion",
         {
+            resolve: "gatsby-plugin-manifest",
+            options: {
+                icon: "static/images/icon.png"
+            },
+        },
+        {
             resolve: "@lekoarts/gatsby-theme-cara",
         }
     ],
