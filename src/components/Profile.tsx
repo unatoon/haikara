@@ -21,8 +21,8 @@ const Profile = ({ name, nickname, icon, weapons }: ProfileProps) => (
                 <Avatar
                     src={icon}
                     sx={{
-                        width: 32,
-                        height: 32,
+                        width: 24,
+                        height: 24,
                     }}
                 />
                 <div sx={{flexGrow: 1}}>
