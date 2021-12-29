@@ -1,13 +1,15 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
-import Divider from "@lekoarts/gatsby-theme-cara/src/elements/divider"
-import Inner from "@lekoarts/gatsby-theme-cara/src/elements/inner"
-import Content from "@lekoarts/gatsby-theme-cara/src/elements/content"
-import Svg from "@lekoarts/gatsby-theme-cara/src/components/svg"
-import { UpDown, UpDownWide, waveAnimation } from "@lekoarts/gatsby-theme-cara/src/styles/animations"
-import Footer from "@lekoarts/gatsby-theme-cara/src/components/footer"
+import { jsx } from "theme-ui";
+import Divider from "@lekoarts/gatsby-theme-cara/src/elements/divider";
+import Inner from "@lekoarts/gatsby-theme-cara/src/elements/inner";
+import Content from "@lekoarts/gatsby-theme-cara/src/elements/content";
+import Svg from "@lekoarts/gatsby-theme-cara/src/components/svg";
+import { UpDown, UpDownWide, waveAnimation } from "@lekoarts/gatsby-theme-cara/src/styles/animations";
+
 // @ts-ignore
-import AboutMDX from "../sections/about"
+import AboutMDX from "../sections/about";
+
+import Footer from "./Footer";
 
 const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
