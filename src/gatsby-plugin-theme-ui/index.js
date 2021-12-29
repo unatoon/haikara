@@ -1,6 +1,8 @@
 import { merge } from "theme-ui"
 import { tailwind } from "@theme-ui/presets"
 
+import "./typography.css"
+
 const theme = merge(tailwind, {
     initialColorModeName: `dark`,
     config: {
@@ -140,6 +142,11 @@ const theme = merge(tailwind, {
                 fontSize: [2, 3, 4],
             },
         },
+    },
+    fonts: {
+        body: 'Splatfont, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+        heading: 'inherit',
+        monospace: 'Menlo, monospace'
     },
 })
 
