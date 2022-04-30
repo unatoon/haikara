@@ -16,13 +16,13 @@ const Isaribikai = () => (
         <Helmet>
             <title>いさりび会 | SNACK HAIKARA</title>
         </Helmet>
-      <Parallax pages={1}>
-        <HeroDivider offset={0} factor={1} />
+      <Parallax pages={2}>
+        <HeroDivider offset={0} factor={2} />
         <Content
           sx={{ variant: `texts.bigger` }}
           speed={0.4}
           offset={0}
-          factor={1}
+          factor={2}
         >
           <Inner>
             <IsaribikaiMDX />
