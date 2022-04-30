@@ -104,7 +104,7 @@ const HeroDivider = ({ offset, factor }: Props) => (
       top="5%"
     />
     <Svg icon="circle" width={64} color="icon_green" left="95%" top="5%" />
-    <Svg icon="box" width={6} color="icon_darkest" left="10%" top="10%" />
+    <Svg icon="box" width={6} color="icon_darkest" left="10%" top="15%" />
     <Svg icon="box" width={12} color="icon_darkest" left="40%" top="30%" />
     <Svg
       icon="hexa"
